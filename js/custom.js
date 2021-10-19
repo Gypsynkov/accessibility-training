@@ -106,6 +106,8 @@ function toggleTab(selectedNav, targetId) {
       item.setAttribute("aria-selected", "false");
     });
 
+    
+
     tabPanels.forEach((item) => {
       if (item.classList.contains("is-active")) {
         item.classList.remove("is-active");
