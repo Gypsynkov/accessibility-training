@@ -196,9 +196,10 @@ li {
   color:#212121
 }
 
-.is-active .tab-title,
+.is-active .tab-title,  
 .is-active .icon {
-  color: #0A578A;
+  color: black;
+  border-radius: 5px 5px 0px 0px;
 }
 .hero.is-info{
   background-color: #0A578A;
@@ -242,7 +243,7 @@ color:#08441F ;
 input:focus,
 textarea:focus {
   outline: 0;
-  box-shadow: 0 0 2px 1.5px #fff,
+  box-shadow: 0 0 2px 1.5px #660014,
               0 0 3px 3px #000;
 }
 .media > .media-right > .has-text-grey-light {
@@ -252,6 +253,30 @@ textarea:focus {
 fieldset {
   border: none;
 }
+
+.is-active .tabs-button-inactive{
+  height: 40px;
+  background: #0A578A;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 1.25rem;
+  color: white;
+  }
+
+.tabs-button-inactive{
+  height: 40px;
+  background: #0A578A;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 1.25rem;
+  color: white;
+  }
+
+  .tabs-button-inactive:focus{
+    color:#0A578A ;
+    background: white;
+  }
+
 
 .is-success.is-medium.tag {
   background-color: #10652E;
@@ -286,3 +311,4 @@ fieldset {
 .soc a {
   color: #1D53AA;
 }
+

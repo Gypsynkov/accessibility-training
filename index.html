@@ -274,24 +274,24 @@
       </div>
     </div>
     <div class="tabs is-boxed is-centered main-menu" id="nav">
-      <ul class="tabs-list" role="tablist" aria-owns="1 3 4">
-        <li data-target="pane-1" id="1" class="is-active" role="presentation">
-          <a role="button" href="#" id="tab-1"  aria-selected="true" aria-controls="pane-1">
-            <span class="icon is-small"  aria-hidden="true"><i class="fa fa-image"></i></span>
-            <span>Pictures</span>
-          </a>
+      <ul class="tabs-list" role="tablist" aria-owns="1 3 4" aria-label="List of topics tabs">
+        <li data-target="pane-1" id="1" class="is-active" role="none">
+          <button type="button" class="tabs-button-inactive " id="tab-1" role="tab" aria-selected="true" aria-controls="pane-1">
+            <span class="icon is-small" aria-hidden="true"><i class="fa fa-image"></i></span>
+            <span class="tab-title">Pictures</span>
+          </button>
         </li>
-        <li data-target="pane-3" id="3" role="presentation">
-          <a role="button" href="#" id="tab-3"  aria-selected="false" aria-controls="pane-3" tabindex="-1">
-            <span class="icon is-small" aria-hidden="true"><i class="fab fa-superpowers" ></i></span>
-            <span>Team</span>
-          </a>
+        <li data-target="pane-3" id="3" role="none">
+          <button type="button"  class="tabs-button-inactive"  id="tab-3" role="tab" aria-selected="false" aria-controls="pane-3" tabindex="-1">
+            <span class="icon is-small" aria-hidden="true"><i class="fab fa-superpowers"></i></span>
+            <span class="tab-title">Team</span>
+          </button>
         </li>
-        <li data-target="pane-4" id="4" role="presentation">
-          <a role="button" href="#" type="button" id="tab-4"  aria-selected="false" aria-controls="pane-4" tabindex="-1">
-            <span class="icon is-small" aria-hidden="true"><i class="fa fa-film" ></i></span>
-            <span>Video</span>
-          </a>
+        <li data-target="pane-4" id="4" role="none">
+          <button type="button"  class="tabs-button-inactive" id="tab-4" role="tab" aria-selected="false" aria-controls="pane-4" tabindex="-1">
+            <span class="icon is-small" aria-hidden="true"><i class="fa fa-film"></i></span>
+            <span class="tab-title">Video</span>
+          </button>
         </li>
       </ul>
     </div>
